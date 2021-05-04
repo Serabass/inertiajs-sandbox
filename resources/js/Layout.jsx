@@ -67,9 +67,7 @@ export default function AppLayout({title, children}) {
                 </Layout>
             </Content>
             <Footer style={{textAlign: 'center'}}>
-                <span>
-                    <a href="https://github.com/Serabass/inertiajs-sandbox" style={{float: 'right'}} target="_blank">Github</a>
-                </span>
+                <a href="https://github.com/Serabass/inertiajs-sandbox" target="_blank">Github</a>
             </Footer>
         </Layout>
     )
