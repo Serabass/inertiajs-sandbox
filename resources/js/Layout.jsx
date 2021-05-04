@@ -22,6 +22,9 @@ export default function AppLayout({title, children}) {
                     <Menu.Item key="2">
                         <InertiaLink href="/about">about</InertiaLink>
                     </Menu.Item>
+                    <Menu.Item key="3">
+                        <InertiaLink href="/accounts">accounts</InertiaLink>
+                    </Menu.Item>
                 </Menu>
             </Header>
             <Content style={{padding: '0 50px'}}>
