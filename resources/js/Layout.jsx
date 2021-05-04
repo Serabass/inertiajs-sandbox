@@ -28,9 +28,6 @@ export default function AppLayout({title, children}) {
                 </Menu>
             </Header>
             <Content style={{padding: '0 50px'}}>
-                <span>
-                    <a href="https://github.com/Serabass/inertiajs-sandbox" style={{float: 'right'}} target="_blank">Github</a>
-                </span>
                 <Breadcrumb style={{margin: '16px 0'}} hidden>
                     <Breadcrumb.Item>Home</Breadcrumb.Item>
                     <Breadcrumb.Item>List</Breadcrumb.Item>
@@ -69,7 +66,11 @@ export default function AppLayout({title, children}) {
                     </Content>
                 </Layout>
             </Content>
-            <Footer style={{textAlign: 'center'}}>Ant Design ©2018 Created by Ant UED</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                <span>
+                    <a href="https://github.com/Serabass/inertiajs-sandbox" style={{float: 'right'}} target="_blank">Github</a>
+                </span>
+            </Footer>
         </Layout>
     )
 }
