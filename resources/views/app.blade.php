@@ -11,10 +11,7 @@
 
         <style>
         </style>
-
-        <script>
-
-        </script>
+      @routes
     </head>
     <body class="antialiased">
         @inertia

@@ -17,13 +17,13 @@ export default function AppLayout({title, children}) {
                 <div className="logo" />
                 <Menu theme="dark" mode="horizontal">
                     <Menu.Item key="1">
-                        <InertiaLink href="/">home</InertiaLink>
+                        <InertiaLink href={route('home')}>home</InertiaLink>
                     </Menu.Item>
                     <Menu.Item key="2">
-                        <InertiaLink href="/about">about</InertiaLink>
+                        <InertiaLink href={route('about')}>about</InertiaLink>
                     </Menu.Item>
                     <Menu.Item key="3">
-                        <InertiaLink href="/accounts">accounts</InertiaLink>
+                        <InertiaLink href={route('accounts')}>accounts</InertiaLink>
                     </Menu.Item>
                 </Menu>
             </Header>
